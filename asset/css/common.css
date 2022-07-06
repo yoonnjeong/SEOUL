@@ -1,0 +1,66 @@
+/* font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Noto Sans KR', sans-serif; */
+
+body {
+    font-size: 14px;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Nanum Gothic','Noto Sans KR' , sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-style: normal;
+    line-height: 1.35em;
+}
+
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+}
+.wrapper {
+    min-width: 1272px;
+}
+main {
+    letter-spacing: -0.05em;
+}
+.inner {
+    width: 1152px;
+    margin: 0 auto;
+    position: relative;
+}
+.inner-wrap::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+input, select {
+    font-family: 'Nanum Gothic','Noto Sans KR' , sans-serif;
+    font-size: 16px;
+    background: transparent;
+}
+input[type='checkbox'] + label:before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    background: url(../image/bg_select_arrow_m.png) no-repeat no-repeat 96% center;
+    background-size: 8px auto;
+}
+.keytitle {
+    font-size: 24px;
+    font-weight: 700;
+   
+   line-height: 32.4px;
+}
