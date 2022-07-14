@@ -96,7 +96,7 @@ header .search-box form {
 }
 header .search-box input[type='text'] {
     float: left;
-    width: calc(100% - 72px);
+    width: 100%;
     border: 0;
     padding: 0 10px;
     height: 38px;
