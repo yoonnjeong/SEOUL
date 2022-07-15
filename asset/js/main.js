@@ -92,6 +92,24 @@ $(function(){
         }
     });
 
+    $('.keynews-area').hover(function(){
+        if(!$(this).find('.play').hasClass('active')){ 
+            swiper1.autoplay.stop();
+        }},
+    function(){
+        if(!$(this).find('.play').hasClass('active')){
+            swiper1.autoplay.start();
+        }}
+    );
+    $('.parti-area').hover(function(){
+        if(!$(this).find('.play').hasClass('active')){ 
+            swiper2.autoplay.stop();
+        }},
+    function(){
+        if(!$(this).find('.play').hasClass('active')){
+            swiper2.autoplay.start();
+        }}
+    );
 
     
 
