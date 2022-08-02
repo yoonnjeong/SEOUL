@@ -177,7 +177,7 @@ header .weather-area::after {
     content: '';
     clear: both;
 }
-header .weather-area .ic-weather {
+header .weather-area .link-weather {
     float: left;
     display: inline-block;
     width: 58px;

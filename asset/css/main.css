@@ -23,7 +23,7 @@
     z-index: 1;
     position: relative;
 }
-.top-banner .story {
+.top-banner .link-story {
     position: absolute;
     left: 50%;
     top: 0;
@@ -32,7 +32,7 @@
     margin-left: -550px;
     z-index: 2;
 }
-.top-banner .banner-box {
+.top-banner .link-banner {
     width: 100%;
     height: 100%;
     display: block;
@@ -83,7 +83,7 @@
     font-size: 12px;
     color: #fff;
 }
-.top-banner .banner-close {
+.top-banner .btn-banner-close {
     width: 9px;
     height: 9px;
     display: inline-block;
@@ -312,7 +312,7 @@ main .inner .inner-wrap {
     width: 100%;
     height: 214px;
 }
-.sc-covid .corona-box .corona {
+.sc-covid .corona-box .link-corona {
     position: absolute;
     left: 0;
     top: 0;
@@ -321,7 +321,7 @@ main .inner .inner-wrap {
     height: 129px;
     z-index: 10;
 }
-.sc-covid .corona-box .prevent {
+.sc-covid .corona-box .link-prevent {
     position: absolute;
     left: 0;
     top: 129px;
@@ -368,10 +368,10 @@ main .inner .inner-wrap {
 .sc-covid .covid-txt span.date {
     right: 20px;
 }
-.sc-covid .covid-txt span.timenew {
+.sc-covid .covid-txt span.timecorona {
     top: 11px;
 }
-.sc-covid .covid-txt span.timepre {
+.sc-covid .covid-txt span.timeprevent {
     top: 135px;
 }
 .sc-covid .covid-txt span.bott {
@@ -444,40 +444,40 @@ main .inner .inner-wrap {
     content: '';
     display: inline-block;
 }
-.sc-keyservice .keyservice-item a.ser::before {
+.sc-keyservice .keyservice-item a.link-ser::before {
     background-position: -360px 0;
 }
-.sc-keyservice .keyservice-item a.respon::before {
+.sc-keyservice .keyservice-item a.link-respon::before {
     background-position: 0 0;
 }
-.sc-keyservice .keyservice-item a.work::before {
+.sc-keyservice .keyservice-item a.link-work::before {
     background-position: -120px 0;
 }
-.sc-keyservice .keyservice-item a.house::before {
+.sc-keyservice .keyservice-item a.link-house::before {
     background-position: -300px 0;
 }
-.sc-keyservice .keyservice-item a.study::before {
+.sc-keyservice .keyservice-item a.link-study::before {
     background-position: -180px 0;
 }
-.sc-keyservice .keyservice-item a.welfare::before {
+.sc-keyservice .keyservice-item a.link-welfare::before {
     background-position: -960px 0;
 }
-.sc-keyservice .keyservice-item a.home::before {
+.sc-keyservice .keyservice-item a.link-home::before {
     background-position: -780px 0;
 }
-.sc-keyservice .keyservice-item a.infor::before {
+.sc-keyservice .keyservice-item a.link-infor::before {
     background-position: -1140px 0;
 }
-.sc-keyservice .keyservice-item a.mseoul::before {
+.sc-keyservice .keyservice-item a.link-mseoul::before {
     background-position: -1020px 0;
 }
-.sc-keyservice .keyservice-item a.seoul::before {
+.sc-keyservice .keyservice-item a.link-seoul::before {
     background-position: -60px 0;
 }
-.sc-keyservice .keyservice-item a.city::before {
+.sc-keyservice .keyservice-item a.link-city::before {
     background-position: -600px 0;
 }
-.sc-keyservice .all-service {
+.sc-keyservice .btn-all-service {
     position: absolute;
     top: 50px;
     right: 0;
@@ -568,7 +568,7 @@ main .inner .inner-wrap {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.sc-notice a.more {
+.sc-notice a.btn-more {
     position: absolute;
     right: 0;
     top: 6px;
@@ -649,28 +649,28 @@ main .inner .inner-wrap {
     width: 85px; 
     height: 85px;
 }
-.sc-fieldinfor .fieldinfor-item a.home::after {
+.sc-fieldinfor .fieldinfor-item a.link-home::after {
     background-position: -115px -115px;
 }
-.sc-fieldinfor .fieldinfor-item a.econo::after {
+.sc-fieldinfor .fieldinfor-item a.link-econo::after {
     background-position: -115px -10px;
 }
-.sc-fieldinfor .fieldinfor-item a.traff::after {
+.sc-fieldinfor .fieldinfor-item a.link-traff::after {
     background-position: -220px -115px;
 }
-.sc-fieldinfor .fieldinfor-item a.envir::after {
+.sc-fieldinfor .fieldinfor-item a.link-envir::after {
     background-position: -10px -115px;
 }
-.sc-fieldinfor .fieldinfor-item a.welf::after {
+.sc-fieldinfor .fieldinfor-item a.link-welf::after {
     background-position: -10px -220px;
 }
-.sc-fieldinfor .fieldinfor-item a.safe::after {
+.sc-fieldinfor .fieldinfor-item a.link-safe::after {
     background-position: -220px -10px;
 }
-.sc-fieldinfor .fieldinfor-item a.cult::after {
+.sc-fieldinfor .fieldinfor-item a.link-cult::after {
     background-position: -10px -10px;
 }
-.sc-fieldinfor .fieldinfor-item a.work::after {
+.sc-fieldinfor .fieldinfor-item a.link-work::after {
     background-position: -115px -220px;
 }
 .sc-new {
@@ -890,22 +890,22 @@ main .inner .inner-wrap {
     background-image: url(../image/ico_sns_list_202205.png);
     background-repeat: no-repeat;
 }
-.sc-seoulsns .seoulsns-item a.insta::after {
+.sc-seoulsns .seoulsns-item a.link-insta::after {
     background-position: 0 0;
 }
-.sc-seoulsns .seoulsns-item a.face::after {
+.sc-seoulsns .seoulsns-item a.link-face::after {
     background-position: -40px 0;
 }
-.sc-seoulsns .seoulsns-item a.twit::after {
+.sc-seoulsns .seoulsns-item a.link-twit::after {
     background-position: -80px 0;
 }
-.sc-seoulsns .seoulsns-item a.blog::after {
+.sc-seoulsns .seoulsns-item a.link-blog::after {
     background-position: -120px 0;
 }
-.sc-seoulsns .seoulsns-item a.yout::after {
+.sc-seoulsns .seoulsns-item a.link-yout::after {
     background-position: -160px 0;
 }
-.sc-seoulsns .seoulsns-item a.kaka::after {
+.sc-seoulsns .seoulsns-item a.link-kaka::after {
     background-position:-200px 0;
 }
 .sc-bbanner {
@@ -1046,7 +1046,7 @@ main .inner .inner-wrap {
 }
 
 
-.sc-jurisdiction .area-title {
+.sc-jurisdiction .btn-area-title {
     display: block;
     background: #f7f7f7;
     color: #333;
@@ -1054,14 +1054,14 @@ main .inner .inner-wrap {
     padding: 16px 0;
 }
 
-.sc-jurisdiction .area-title span.text {
+.sc-jurisdiction .btn-area-title span.text {
     display: inline-block;
     position: relative;
     padding-right: 20px;
     font-size: 14px;
 }
 
-.sc-jurisdiction .area-title span.text::after {
+.sc-jurisdiction .btn-area-title span.text::after {
     content: '';
     position: absolute;
     top: 8px;
@@ -1080,12 +1080,12 @@ main .inner .inner-wrap {
 
 
 /* 스크립트 인터렉션 */
-.sc-jurisdiction .area-title.on span.text::after {
+.sc-jurisdiction .btn-area-title.on span.text::after {
     top: 4px;
     transform: rotate(45deg);
     transform-origin: center center;
 }
-.sc-jurisdiction .area-title.on {
+.sc-jurisdiction .btn-area-title.on {
     background: #e2e2e2;
 }
 

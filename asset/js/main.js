@@ -143,11 +143,11 @@ $(function(){
         }
     });
 
-    $('.sc-jurisdiction .area-title').click(function(e){
+    $('.sc-jurisdiction .btn-area-title').click(function(e){
         e.preventDefault();
 
         if ($(this).hasClass('on') == false) {
-            $('.sc-jurisdiction .area-title').removeClass('on');
+            $('.sc-jurisdiction .btn-area-title').removeClass('on');
             $(this).addClass('on');
             $('.sc-jurisdiction .workplace-list').slideUp();
             $(this).siblings('.workplace-list').slideDown();       
