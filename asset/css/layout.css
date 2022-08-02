@@ -121,7 +121,6 @@ header .keyboard {
     background-size: contain;
 }
 header .search-box button {
-    display: inline-block;
     width: 36px;
     height: 36px;
     padding: 0;
@@ -160,7 +159,6 @@ header .lang-area button {
     background-color: #1E6CB3;
     border: 0;
     height: 21px;
-    display: inline-block;
     padding: 0;
 }
 header .weather-area {
@@ -179,13 +177,11 @@ header .weather-area::after {
 }
 header .weather-area .link-weather {
     float: left;
-    display: inline-block;
     width: 58px;
     height: 47px;
 }
 header .weather-txt {
     float: left;
-    display: inline-block;
 }
 header .weather-txt a {
     display: block;
