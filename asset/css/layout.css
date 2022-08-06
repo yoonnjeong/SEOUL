@@ -333,12 +333,12 @@ footer .mark a {
 footer .mark a+a {
     margin-left: 10px;
 }
-footer .mark a.ismsp {
+footer .mark a.link-ismsp {
     background: url(../image/footer_mark_isms-p.png) no-repeat;
     width: 79px;
     height: 56px;
 }
-footer .mark a.web {
+footer .mark a.link-web {
     background: url(../image/footer_mark_wah.png) no-repeat;
     width: 86px;
     height: 56px;

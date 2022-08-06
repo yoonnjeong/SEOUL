@@ -3,7 +3,7 @@ $(function(){
         $(this).toggleClass('active');
     });
 
-    $('.top-banner .banner-close').click(function(){
+    $('.top-banner .btn-banner-close').click(function(){
         $('.top-banner').hide();
     });
 
@@ -114,17 +114,17 @@ $(function(){
     
 
 
-    var swiper3 = new Swiper(".bbanner-list", {
+    var swiper3 = new Swiper(".slidebanner-list", {
         loop: true,
         slidesPerView: 3,
         spaceBetween: 43,
         pagination: {
-          el: ".bbanner-list .swiper-pagination",
+          el: ".slidebanner-list .swiper-pagination",
           type: "fraction",
         },
         navigation: {
-            nextEl: ".bbanner-list .swiper-button-next",
-            prevEl: ".bbanner-list .swiper-button-prev",
+            nextEl: ".slidebanner-list .swiper-button-next",
+            prevEl: ".slidebanner-list .swiper-button-prev",
         },
         autoplay: {
             delay: 2500,
@@ -132,10 +132,10 @@ $(function(){
         },
     });
 
-    $('.sc-bbanner .btn-wrap a.btn').click(function(e){
+    $('.sc-slidebanner .btn-wrap a.btn').click(function(e){
         e.preventDefault();
-        $('.bbanner-area a.btn').toggleClass('on');
-        if ($('.bbanner-area a.btn.play').css('display') == 'none') {
+        $('.sc-slidebanner a.btn').toggleClass('on');
+        if ($('.sc-slidebanner a.btn.play').css('display') == 'none') {
             swiper3.autoplay.start();
         } else {
             swiper3.autoplay.stop();
@@ -161,6 +161,7 @@ $(function(){
 
         if (keyCode == 9 && e.shiftKey) {
             $('.sc-jurisdiction .workplace-list').stop().slideUp();
+            $('.sc-jurisdiction .btn-area-title').removeClass('on');
         } else {
             
         }
@@ -171,6 +172,7 @@ $(function(){
 
         if (keyCode == 9 && !e.shiftKey) {
             $('.sc-jurisdiction .workplace-list').stop().slideUp();
+            $('.sc-jurisdiction .btn-area-title').removeClass('on');
         } else {
             
         }

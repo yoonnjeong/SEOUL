@@ -374,7 +374,7 @@ main .inner .inner-wrap {
 .sc-covid .covid-txt span.timeprevent {
     top: 135px;
 }
-.sc-covid .covid-txt span.bott {
+.sc-covid .covid-txt span.bottom {
     top: 184px;
 }
 .sc-covid .covid-txt span.first {
@@ -908,19 +908,19 @@ main .inner .inner-wrap {
 .sc-seoulsns .seoulsns-item a.link-kaka::after {
     background-position:-200px 0;
 }
-.sc-bbanner {
+.sc-slidebanner {
     position: relative;
     padding: 50px 0;
     box-sizing: border-box;
 }
-.sc-bbanner .btn-wrap {
+.sc-slidebanner .btn-wrap {
     position: relative;
     display: block;
     height: 32px;
     margin-top: 5px;
     overflow: hidden;
 }
-.sc-bbanner .swiper-pagination {
+.sc-slidebanner .swiper-pagination {
     position: absolute;
     display: block;
     right: 70px;
@@ -932,8 +932,8 @@ main .inner .inner-wrap {
     width: auto;
     letter-spacing: -.15em;
 }
-.sc-bbanner .swiper-button-next, 
-.sc-bbanner .swiper-button-prev {
+.sc-slidebanner .swiper-button-next, 
+.sc-slidebanner .swiper-button-prev {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -976,7 +976,7 @@ main .inner .inner-wrap {
     display: block;
     background: url(../image/icon_set_common.png) no-repeat -86px -43px;
 }
-.sc-bbanner a.btn {
+.sc-slidebanner a.btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -992,7 +992,7 @@ main .inner .inner-wrap {
     box-sizing: border-box;
     overflow: hidden;
 }
-.sc-bbanner a.btn.pause::after {
+.sc-slidebanner a.btn.pause::after {
     position: absolute;
     left: 2px;
     top: -1px;
@@ -1002,10 +1002,10 @@ main .inner .inner-wrap {
     display: block;
     background: url(../image/icon_set_common.png) no-repeat -65px -43px;
 }
-.sc-bbanner a.btn.play {
+.sc-slidebanner a.btn.play {
     display: none;
 }
-.sc-bbanner a.btn.play::after {
+.sc-slidebanner a.btn.play::after {
     position: absolute;
     left: 2px;
     top: -1px;
@@ -1017,10 +1017,10 @@ main .inner .inner-wrap {
 }
 
 /* 자바스크립트 인터렉션 */
-.sc-bbanner a.btn.pause.block {
+.sc-slidebanner a.btn.pause.on {
     display: none;
 }
-.sc-bbanner a.btn.play.block {
+.sc-slidebanner a.btn.play.on {
     display: block;
 }
 
